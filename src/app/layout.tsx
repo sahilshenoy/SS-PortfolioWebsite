@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  icons: {
+    icon: "/public/favicon.ico", // Make sure this path is correct
+  },
   robots: {
     index: true,
     follow: true,

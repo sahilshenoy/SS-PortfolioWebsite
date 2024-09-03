@@ -1,12 +1,12 @@
 import { Icons } from "../../icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, icons } from "lucide-react";
 
 export const DATA = {
   name: "Sahil Shenoy",
   initials: "SS",
   url: "https://sahilshenoy.com",
   location: "Kerala, India",
-  locationLink: "https://maps.app.goo.gl/JrTRifbSemM8kvNt7",
+  locationLink:"https://maps.app.goo.gl/JrTRifbSemM8kvNt7" ,
   description:
     "Final-year Computer Science Engineering student specializing in Cloud Computing and Automation at \n VIT Bhopal.",
   summary:
@@ -26,8 +26,10 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
+  // icons: {
+  //   icon: '/favicon.ico',
+  // },
   contact: {
     email: "sahilshenoy3@gmail.com",
     tel: "+91 9400981593",
@@ -48,7 +50,8 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:sahilshenoy3@gmail.com?subject=Hey There!",
+        url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sahilshenoy3@gmail.com",
+        // url: <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sahilshenoy3@gmail.com" target="_blank"></a>,
         icon: Icons.email,
         navbar: true,
     }
@@ -106,7 +109,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://cdn.llm.report/openai-demo.mp4",
     },
     {
       title: "PadhoVIT",
@@ -114,16 +117,15 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Developed a comprehensive Learning Management System (LMS) using Next.js, Node.js, and MongoDB, focusing on a seamless user experience and efficient backend processes. Integrated technologies like Redis for caching and AWS S3 for media storage, leading to significant improvements in performance and user engagement.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Node.js",
+        "Express.js",
+        "AWS S3",
+        "RTK Query",
+        "Socket.io",
+        "MongoDB",
       ],
       links: [
         {
