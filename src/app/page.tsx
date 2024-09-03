@@ -189,7 +189,6 @@ export default function Page() {
                   <CertificateCard
                     title={project.title}
                     description={project.description}
-                    location={project.location}
                     dates={project.dates}
                     image={project.image}
                     links={project.links}
