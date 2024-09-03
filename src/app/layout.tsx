@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Head from "next/head";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/public/favicon.ico", // Make sure this path is correct
+    icon: "/favicon.ico", // Make sure this path is correct
   },
   robots: {
     index: true,
@@ -54,6 +55,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+      <link rel="icon" type="image/png" href="/favicon.png" />
+      <meta name="description" content={DATA.description} />
+      <title>{DATA.name}</title>
+      </Head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
