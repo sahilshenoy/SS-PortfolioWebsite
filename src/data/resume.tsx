@@ -111,6 +111,8 @@ export const DATA = {
       video:
         "https://cdn.llm.report/openai-demo.mp4",
     },
+  ],
+  UpcomingProjects: [
     {
       title: "PadhoVIT",
       href: "https://magicui.design",
@@ -130,12 +132,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
