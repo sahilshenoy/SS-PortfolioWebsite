@@ -111,6 +111,35 @@ export const DATA = {
       video:
         "https://cdn.llm.report/openai-demo.mp4",
     },
+    {
+      title: "BucketByte",
+      href: "https://bucketbyte.com",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "BucketByte is a platform designed to generate AI-powered blog content, simplifying the content creation process with secure cloud storage and efficient serverless integration. It reflects practical experience in working with Amazon Web Services to create a reliable and scalable solution.",
+      technologies: [
+        "Amazon Bedrock",
+        "Amazon S3",
+        "Amazon Lambda",
+        "API Gateway",
+        "Next.js"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://bucketbyte.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sahilshenoy/bucket-byte",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://imgur.com/a/bVixY0S",
+    }
   ],
   UpcomingProjects: [
     {
