@@ -139,6 +139,35 @@ export const DATA = {
       ],
       image: "",
       video: "https://imgur.com/a/bVixY0S",
+    },
+    {
+      title: "NeuroNote",
+      href: "https://neuronote.com",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "A web application that enables users to upload documents and create notes, featuring integrated AI-powered search capabilities for efficient information retrieval. It leverages cutting-edge technologies to provide a seamless experience in managing and searching through personal and team documentation.",
+      technologies: [
+        "Open AI API",
+        "Convex",
+        "Vector Embedding",
+        "Clerk",
+        "Next.js"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://neuronote.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/dhwanibudhiraja/neuronote",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://imgur.com/a/bVixY0S",
     }
   ],
   UpcomingProjects: [
