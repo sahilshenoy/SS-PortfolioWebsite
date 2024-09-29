@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/resume",
+        "destination": "/api/resume"
+      }
+    ]
+  }
+  
