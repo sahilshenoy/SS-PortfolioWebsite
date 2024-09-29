@@ -1,5 +1,5 @@
 import { Icons } from "../../icons";
-import { HomeIcon, icons } from "lucide-react";
+import { HomeIcon, icons, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Sahil Shenoy",
@@ -26,6 +26,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://www.techwithsd.com", icon: NotebookIcon, label: "Blog" },
   ],
   // icons: {
   //   icon: '/favicon.ico',
