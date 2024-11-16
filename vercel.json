@@ -2,7 +2,12 @@
   "redirects": [
     {
       "source": "/resume",
-      "destination": "https://my--resume.s3.amazonaws.com/SahilResume.pdf",
+      "destination": "https://my--resume.s3.amazonaws.com/Sahil_Shenoy_Resume.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/tcsresume",
+      "destination": "https://my--resume.s3.amazonaws.com/Sahil_Resume_TCS.pdf",
       "permanent": true
     }
   ]
