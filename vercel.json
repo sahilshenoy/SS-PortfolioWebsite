@@ -9,6 +9,11 @@
       "source": "/tcsresume",
       "destination": "https://my--resume.s3.amazonaws.com/Sahil_Resume_TCS.pdf",
       "permanent": true
+    },
+    {
+      "source": "/valentines-4",
+      "destination": "https://valentine-sahani-4.vercel.app/",
+      "permanent": true
     }
   ]
 }
